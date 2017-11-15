@@ -18,6 +18,7 @@ module B2c
     config.generators do |generator|
       generator.assets false
       generator.test_framework false
+      generator.skip_routes true
     end
   end
 end

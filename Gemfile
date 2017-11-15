@@ -37,6 +37,11 @@ gem 'ancestry'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+
+  gem 'database_cleaner'
+  gem 'rspec-rails'
+  gem 'rails-controller-testing'
+
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
